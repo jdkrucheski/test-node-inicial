@@ -23,10 +23,11 @@ Esta API deberá permitir:
 
 ## Instalación y ejecución
 
-Instalamos las dependencias necesarias y ejecutamos el script *serve*:
+Instalamos las dependencias necesarias, creamos un archivo *.env* con el puerto a utilizar y ejecutamos el script *serve*:
 
 ```console
 npm install
+echo "PORT_DEV = 3010" >> .env
 npm run serve
 ```
 
