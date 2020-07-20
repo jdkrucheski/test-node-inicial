@@ -1,0 +1,19 @@
+{
+  "name": "test-node-inicial",
+  "version": "1.0.0",
+  "description": "API para crear, actualizar, eliminar y listar recursos User.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "serve": "nodemon src/index.js"
+  },
+  "author": "Jonathan David Krucheski",
+  "license": "ISC"
+}
